@@ -70,6 +70,7 @@ function playGame()
 
     for (let i = 0; i < 5; i++) {
         playRound();
+        alert(`Round ${i+1} is finished`)
 
     }
 
